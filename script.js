@@ -26,6 +26,8 @@
 
 function myFunction() {
     var x = document.getElementById("myNavbar");
+    var linksCols = document.getElementById("linksCols");
+
     var y = document.getElementById("pageContent");
     var z = document.getElementById("mobileMenu");
     const menuIcon = document.getElementById("hamburger");
@@ -37,10 +39,31 @@ function myFunction() {
         z.style.display = "flex";
         menuIcon.className = "fa fa-xmark fa-lg";
         searchBtn.style.display = "none";
+
+        linksCols.className += " responsive";
+
   } else {
         menuIcon.className = "fa fa-bars";
         y.style.display = "block";
         z.style.display = "none";
         searchBtn.style.display = "block";
+        linksCols.className = "container_links"
   }
+}
+
+function showLinks(index) {
+ 
+    
+    var x = document.getElementsByClassName("subLinks");
+
+
+    if (x[index].style.display === "block") {
+        x[index].style.display = "none";
+
+    }
+    else { 
+        x[index].style.display = "block";
+
+    }
+
 }
