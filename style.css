@@ -56,7 +56,7 @@ a {
     text-decoration: none;
     font-size: 1rem;
     font-weight: 500;
-    margin-left: 20px;
+    margin-left: 30px;
     margin-right: 20px;
 
 }
@@ -237,7 +237,7 @@ img {
     display: none;
 }
 
-@media (max-width: 1030px){
+@media (max-width: 1120px){
 
     
     
@@ -310,9 +310,18 @@ top:0;
 }
 
 
-/* 
-@media (max-width: 800px) {
 
+@media (max-width: 600px) {
 
+    .mobileNavbar a{
+        margin-left: 30px;
+        font-size: x-large;
+        line-height: 4rem;
+    }
 
-} */
+    .mobileNavbar .androidDevs{
+        font-size: 15px;
+    }
+
+}
+
