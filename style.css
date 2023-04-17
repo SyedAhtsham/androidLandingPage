@@ -104,7 +104,8 @@ img {
     border-radius: 20px;
 }
 
-.heading {
+
+{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 900;
     font-size: 3.5rem;
@@ -303,6 +304,7 @@ img {
     .heading{
         margin-top: 3rem;
         font-size: 2.4rem;
+        line-height: 1.1em;
     }
     .outer{
         margin: 0px;
@@ -388,9 +390,6 @@ top:0;
     .headings{
         font-size: 14px;
     }
-    .heading{
-     line-height: 1.1em;   
-    }
-
+    
 }
 
