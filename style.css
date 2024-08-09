@@ -99,7 +99,7 @@ a:hover {
 }
 
 .firstCol {
-    margin-right: 120px;
+    padding-right: 20px;
 }
 
 img {
@@ -346,7 +346,8 @@ top:0;
 
         .paragraph {
             
-            
+            font-size: 18px;
+            line-height: 28px;
             width: auto;
         }
 
