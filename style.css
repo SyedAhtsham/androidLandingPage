@@ -347,7 +347,8 @@ top:0;
 
         .paragraph {
             
-            width: 100%;
+            
+            width: auto;
         }
 
         .header{
