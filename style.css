@@ -303,8 +303,9 @@ img {
     .heading{
         
         margin-top: 3rem;
-        font-size: 40px;
+        font-size: 44px;
         line-height: 1.1em;
+        font-weight: 700;
         
     }
     .outer{
