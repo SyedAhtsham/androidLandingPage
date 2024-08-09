@@ -288,8 +288,7 @@ img {
 @media (max-width: 1120px){
 
     .container{
-        
-        
+
         flex-flow: column-reverse;
         
     }
@@ -304,7 +303,7 @@ img {
     .heading{
         
         margin-top: 3rem;
-        font-size: 44px;
+        font-size: 36px;
         line-height: 1.1em;
         
     }
